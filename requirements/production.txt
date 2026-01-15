@@ -16,7 +16,8 @@ billiard==3.6.4.0
     # via
     #   -r requirements/base.txt
     #   celery
-celery==4.4.6
+pip<24.1
+celery==4.4.7
     # via
     #   -c requirements/constraints.txt
     #   -r requirements/base.txt
