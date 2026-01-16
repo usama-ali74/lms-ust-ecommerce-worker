@@ -16,7 +16,11 @@ billiard==3.6.4.0
     # via
     #   -r requirements/base.txt
     #   celery
+# toolchain – must come first
 pip<24.1
+setuptools<60
+wheel<0.38
+
 celery==4.4.7
     # via
     #   -c requirements/constraints.txt
